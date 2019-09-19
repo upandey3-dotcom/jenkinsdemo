@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.qa.ExtentReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test name="Testupen">
+    <classes>
+      <class name="com.qa.pages.PraTest"/>
+      <class name="com.qa.pages.PraTest1"/>
+    </classes>
+  </test> <!-- Testupen -->
+  <test name="Testupen(failed)">
+    <classes>
+      <class name="com.qa.pages.PraTest1">
+        <methods>
+          <include name="sum"/>
+        </methods>
+      </class> <!-- com.qa.pages.PraTest1 -->
+    </classes>
+  </test> <!-- Testupen(failed) -->
+</suite> <!-- Failed suite [Suite] -->
