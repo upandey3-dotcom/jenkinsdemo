@@ -12,11 +12,11 @@
   </test> <!-- Testupen -->
   <test name="Testupen(failed)">
     <classes>
-      <class name="com.qa.pages.PraTest1">
+      <class name="com.qa.pages.PraTest">
         <methods>
           <include name="sum"/>
         </methods>
-      </class> <!-- com.qa.pages.PraTest1 -->
+      </class> <!-- com.qa.pages.PraTest -->
     </classes>
   </test> <!-- Testupen(failed) -->
 </suite> <!-- Failed suite [Suite] -->

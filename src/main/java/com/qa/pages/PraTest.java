@@ -9,7 +9,7 @@ public class PraTest {
 			System.out.println("SUM");
 			int a=10;
 			int b=20;
-			Assert.assertEquals(30,a+b);
+			Assert.assertEquals(40,a+b);
 			}
 		
 		@Test
